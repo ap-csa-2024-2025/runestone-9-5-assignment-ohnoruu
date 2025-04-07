@@ -7,6 +7,18 @@ public class Main
 {
     public static void main(String[] args)
     {
+        //Pre-Slides Task
+        Animal a = new Animal("Gila Monster", "Reptile");
+        Dog d = new Dog("Golden Retriever");
+        Cat c = new Cat(9);
+
+        a.matingCall();
+        d.matingCall();
+        d.wagTail();
+        c.matingCall();
+
+        Animal foo = new Dog("pitbull");
+
         ShoppingCart cart = new ShoppingCart();
         cart.add(new Item("bread", 3.25));
         cart.add(new Item("milk", 2.50));
